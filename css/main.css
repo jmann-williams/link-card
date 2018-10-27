@@ -1,0 +1,50 @@
+html {
+  background-color: #f0eee8;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card strong {
+  display: block;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.link-card {
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #512200;
+  background-color: #f0eee8;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: #785439;
+}
+.link-card:hover {
+  background-color: #dcd4cd;
+  border-color: #785439;
+  color: #512200;
+}
+
+.link-card .btn {
+  font-family: 'Dosis', sans-serif;
+  font-style: bold;
+  color: #fff;
+  border-style: solid;
+  border-color: #785439;
+  border-radius: 8px;
+  background-color: #785439;
+  padding: .75em;
+}
+
+.link-card .btn:hover {
+  background-color: ##512200;
+  color: #fff;
+}
