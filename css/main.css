@@ -2,7 +2,7 @@ html {
   background-color: #f0eee8;
   font-family: Georgia, serif;
   line-height: 1.5;
-
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -11,40 +11,92 @@ html {
 
 .link-card strong {
   display: block;
-  font-family: 'Dosis', sans-serif;
-  margin-bottom: 1rem;
-  font-size: 1.125rem;
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0 1rem;
 }
 
 .link-card {
+  background-color: #dcd4cd;
   list-style-type: none;
   text-align: center;
   display: block;
   text-decoration: none;
   color: #512200;
-  background-color: #f0eee8;
   border-style: solid;
   border-radius: 3px;
-  border-color: #785439;
+  border-color: #9a816d;
 }
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 0;
+}
+
 .link-card:hover {
-  background-color: #dcd4cd;
+  background-color: #cabdb2;
   border-color: #785439;
   color: #512200;
 }
 
 .link-card .btn {
-  font-family: 'Dosis', sans-serif;
-  font-style: bold;
+  display: inline-block;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
   color: #fff;
   border-style: solid;
   border-color: #785439;
   border-radius: 8px;
   background-color: #785439;
-  padding: .75em;
+  padding: .4em .75em .5em;
 }
 
-.link-card .btn:hover {
-  background-color: ##512200;
+.link-card:hover .btn {
+  background-color: #512200;
+  border-color: #512200;
   color: #fff;
+}
+
+.btn-wrap {
+  padding-bottom: 1em;
+}
+
+p {
+  font-size: 1rem;
+  color: #512200;
+  text-align: left;
+  margin: 0 1rem;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+dl {
+  display: inline-block;
+  font-size: .875rem;
+  color: #512200;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  margin: 0 0 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+dt {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  margin: 0;
+}
+
+dd {
+  display: inline-block;
+  text-align: left;
+  width: 25%;
+  margin: 0;
 }
